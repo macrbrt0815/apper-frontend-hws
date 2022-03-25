@@ -21,3 +21,4 @@ function convertToVowels(string){
 }
 
 const convertedString = convertToVowels('Hello World!') //enter string
+console.log(convertedString)

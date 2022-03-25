@@ -32,7 +32,7 @@ class Stack{
             console.log(this.#EMPTY_STACK)
         }else{
             //if stack is not empty, remove the top element
-            //assighn next element to be the top element
+            //assign next element to be the top element
             this.topElement = this.topElement.next
             this.length--
        }

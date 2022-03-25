@@ -20,3 +20,4 @@ function isPalindrome(string){
 }
 
 const palindrome = isPalindrome('race car') //enter string
+console.log(palindrome)

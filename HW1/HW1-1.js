@@ -5,9 +5,10 @@ function transform (integers){
             squaredIntegers.push(item*item)
         }
     })
-    const integerArray = new Uint32Array(squaredIntegers)
-    return integerArray.sort()
+    const sortedArray = new Uint32Array(squaredIntegers).sort()
+    return sortedArray
 }
 
 const integers = [20,30,1,2,3,4,5, 'one'] //enter array of integers
 const squaredIntegers = transform(integers)
+console.log(squaredIntegers)

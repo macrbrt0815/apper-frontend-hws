@@ -18,3 +18,4 @@ function reverse(string){
     
 }
 const reversedString = reverse('joseph') //enter string
+console.log(reversedString)
