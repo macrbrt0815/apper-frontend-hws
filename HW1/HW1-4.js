@@ -3,7 +3,7 @@ function isPalindrome(string){
 
     if(typeof string ==='string'){
         let isPalindrome = true
-        string = string.replaceAll(' ', '') //remove all white space
+        string = string.replaceAll(' ', '').toLowerCase() //remove all white space
         const stringLength = string.length - 1 
         
         //loop trhough the string
@@ -19,5 +19,5 @@ function isPalindrome(string){
     }
 }
 
-const palindrome = isPalindrome('race car') //enter string
+const palindrome = isPalindrome('civic') //enter string
 console.log(palindrome)
